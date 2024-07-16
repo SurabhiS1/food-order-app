@@ -1,5 +1,4 @@
 import { AddProduct } from "./AddProduct";
-import pasta from "../assets/images/pasta.jpg";
 
 export const ProductPreviewCard = ({product, onAddProduct})=> {
 

@@ -6,7 +6,7 @@ const Home = () => {
         <>
         <Banner />
         <ProductsPreview />
-        <About />
+        <About /> 
         </>
        
     )

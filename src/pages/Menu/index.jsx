@@ -16,7 +16,7 @@ const Menu = () => {
     const [activeTabIndex, setActiveTabIndex] = useState(0);
 
 
-    useEffect(() => {
+    useEffect(() => { 
         dispatch(fetchProducts())
     }, [])
 
