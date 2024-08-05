@@ -1,6 +1,7 @@
 import { useForm } from "react-hook-form";
 import Button from "./elements/Button";
 import { ReactComponent as ArrowRightSvg } from "../assets/icons/arrow-right-long-svgrepo-com.svg";
+import { useDispatch } from "react-redux";
 
 export const AddressForm = () => {
     const { register, handleSubmit} = useForm();
